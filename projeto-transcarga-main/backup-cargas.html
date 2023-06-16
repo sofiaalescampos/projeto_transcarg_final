@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Transcargo</title>
+    <link rel="stylesheet" href="cargas.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo-container">
+          <img src="./imagens/logo-transcargo.png" alt="Logo da Empresa">
+        </div>
+        <nav class="nav-container">
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#" class="active">Cargas</a></li>
+            <li><a href="#">Cadastro</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="buttons">
+      <button class="selected">Cadastro de Cargas</button>
+      <button>Gerenciamento de Rotas</button>
+      <button>Acompanhamento do Cliente</button>
+    </div>
+    <main>
+        <form>
+          <div>
+            <label for="pesquisa"><i class="fas fa-search"></i></label>
+            <input type="text" id="pesquisa" placeholder="Buscar..." style="width: 60%;">
+            <button class="btn-lupa">
+              <img src="./imagens/lupa.png" alt="Buscar" >
+            </button>
+          </div>
+          <div>
+            <label for="tipo-carga">Tipo de carga:</label>
+            <input type="text" id="tipo-carga" style="width: 40%;">
+          </div>
+          <div class="form-group">
+            <label for="peso">Peso:</label>
+            <input type="text" id="peso">
+          </div>
+          <div class="form-group">
+            <label for="altura">Altura:</label>
+            <input type="text" id="altura">
+          </div>
+          <div class="form-group">
+            <label for="largura">Largura:</label>
+            <input type="text" id="largura">
+          </div>
+          <div class="form-group">
+            <label for="comprimento">Comprimento:</label>
+            <input type="text" id="comprimento">
+          </div>
+          <h3>Endereço de origem</h3>
+          <div>
+            <label for="rua1">Rua:</label>
+            <input type="text" id="rua1" style="width: 60%;">
+          </div>
+          <div class="form-group">
+            <label for="rua1">Bairro:</label>
+            <input type="text" id="rua1">
+          </div>
+          <div class="form-group">
+            <label for="cep1">CEP:</label>
+            <input type="text" id="cep1">
+          </div>
+          <div class="form-group">
+            <label for="cidade1">Cidade:</label>
+            <select id="cidade1">
+              <option value="1">São Paulo</option>
+              <option value="2">Rio de Janeiro</option>
+              <option value="3">Belo Horizonte</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="estado1">Estado:</label>
+            <select id="estado1">
+              <option value="1">São Paulo</option>
+              <option value="2">Rio de Janeiro</option>
+            </select>
+         </div>
+         <h3>Endereço de destino</h3>
+          <div>
+            <label for="rua1">Rua:</label>
+            <input type="text" id="rua1" style="width: 60%;">
+          </div>
+          <div class="form-group">
+            <label for="rua1">Bairro:</label>
+            <input type="text" id="rua1">
+          </div>
+          <div class="form-group">
+            <label for="cep1">CEP:</label>
+            <input type="text" id="cep1">
+          </div>
+          <div class="form-group">
+            <label for="cidade1">Cidade:</label>
+            <select id="cidade1">
+              <option value="1">São Paulo</option>
+              <option value="2">Rio de Janeiro</option>
+              <option value="3">Belo Horizonte</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="estado1">Estado:</label>
+            <select id="estado1">
+              <option value="1">São Paulo</option>
+              <option value="2">Rio de Janeiro</option>
+            </select>
+         </div>
+         <div class="side-buttons">
+            <button id="btn-style" class="active">Salvar</button>
+            <button id="btn-style">Editar</button>
+            <button id="btn-style">Excluir</button>
+          </div>
+        </form>
+    </main>
+    <footer>
+        <div class="footer-container">
+          <div class="logo-container">
+            <img src="./imagens/logo-abreviado-tc.png" alt="Logo da Empresa">
+          </div>
+          <div class="social-container">
+            <a href="#"><img src="./imagens/icone-face.png" alt="Ícone do Facebook"></a>
+            <a href="#"><img src="./imagens/icone-insta.png" alt="Ícone do Instagram"></a>
+            <a href="#"><img src="./imagens/icone-linke.png" alt="Ícone do LinkedIn"></a>
+            <a href="#"><img src="./imagens/icone-whats.png" alt="Ícone do WhatsApp"></a>
+          </div>
+          <div class="address-container">
+              <h3>Contato: (11) 2103-3033</h3>
+              Rua: Serafim Bueno da Silva nº5100 | Jardim Airsel 
+              CEP: 14135-200 | São Paulo/SP
+          </div>
+        </div>
+    </footer>
+</body>
+</html>

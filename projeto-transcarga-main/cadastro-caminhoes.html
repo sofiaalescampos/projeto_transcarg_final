@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Transcargo</title>
+    <link rel="stylesheet" href="cadastro-caminhoes.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo-container">
+          <img src="./imagens/logo-transcargo.png" alt="Logo da Empresa">
+        </div>
+        <nav class="nav-container">
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Cargas</a></li>
+            <li><a href="#" class="active">Cadastro</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="buttons">
+      <button>Cadastro de usuários</button>
+      <button class="selected">Cadastro de caminhões</button>
+    </div>
+    <main>
+        <form>
+            <div>
+                <label for="pesquisa"><i class="fas fa-search"></i></label>
+                <input type="text" id="pesquisa" placeholder="Insira o modelo ou placa para fazer a busca" style="width: 60%;">
+                <button class="btn-lupa">
+                  <img src="./imagens/lupa.png" alt="Buscar" >
+                </button>
+              </div>
+          <div>
+            <label for="tipo-carga">Modelo</label>
+            <input type="text" id="tipo-carga" style="width: 40%;">
+          </div>
+          <div class="form-group">
+            <label for="altura">Placa</label>
+            <input type="text" id="altura">
+          </div>
+          <div class="form-group">
+            <label for="largura">Ano de Fabricação</label>
+            <input type="text" id="largura">
+          </div>
+          <div class="form-group">
+            <label for="comprimento">Cor</label>
+            <input type="text" id="comprimento">
+          </div>
+          <div class="form-group">
+            <label for="comprimento">Chassi</label>
+            <input type="text" id="comprimento">
+          </div>
+          <div class="form-group">
+            <label for="comprimento">Data da Compra</label>
+            <input type="text" id="comprimento">
+          </div>
+          <div class="form-group">
+            <label for="comprimento">Nº Nota Fiscal</label>
+            <input type="text" id="comprimento">
+          </div><br>
+          <div class="form-group">
+            <label for="cidade1">Cidade:</label>
+            <select id="cidade1">
+              <option value="1">São Paulo</option>
+              <option value="2">Rio de Janeiro</option>
+              <option value="3">Belo Horizonte</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="estado1">Estado:</label>
+            <select id="estado1">
+              <option value="1">São Paulo</option>
+              <option value="2">Rio de Janeiro</option>
+            </select>
+         <div class="side-buttons">
+            <button id="btn-style">Cadastrar</button>
+            <button id="btn-style">Editar</button>
+            <button id="btn-style">Excluir</button>
+          </div>
+        </form>
+    </main>
+    <footer>
+        <div class="footer-container">
+          <div class="logo-container">
+            <img src="./imagens/logo-abreviado-tc.png" alt="Logo da Empresa">
+          </div>
+          <div class="social-container">
+            <a href="#"><img src="./imagens/icone-face.png" alt="Ícone do Facebook"></a>
+            <a href="#"><img src="./imagens/icone-insta.png" alt="Ícone do Instagram"></a>
+            <a href="#"><img src="./imagens/icone-linke.png" alt="Ícone do LinkedIn"></a>
+            <a href="#"><img src="./imagens/icone-whats.png" alt="Ícone do WhatsApp"></a>
+          </div>
+          <div class="address-container">
+              <h2>Contato: (11) 2103-3033</h2>
+              Rua: Serafim Bueno da Silva nº5100 | Jardim Airsel 
+              CEP: 14135-200 | São Paulo/SP
+          </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,184 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #476957;
+    height: 80px;
+  }
+  
+  .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .logo-container img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .nav-container ul {
+    list-style: none;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+  }
+  
+  .nav-container li {
+    margin-right: 20px;
+  }
+  
+  .nav-container a {
+    color: #FB4A13;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Estilo para o botão ativo */
+  .nav-container a.active,
+  .nav-container a:hover {
+    color: #FFFFFF;
+  }
+
+  /* Estilos para o conteúdo principal */
+
+  body {
+    min-height: auto;/*250vh;*/
+    display: block;
+    flex-direction: column;
+  }
+  
+  .text-section {
+    flex: 1;
+  }
+
+  main {
+    max-width: 1200px;
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .buttons button {
+    background-color: #D9D9D9;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .buttons button.selected,
+  .buttons button:hover {
+    background-color: #ff6600;
+    color: #fff;
+  }
+  
+  /* Estilo dos inputs e títulos */
+
+  .form-group {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #605A5A;
+  }
+  
+  input {
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #D4EDE0;
+  }
+
+  select {
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #D4EDE0;
+  }
+
+  .btn-lupa {
+    border: none;
+    background-color: #fff;
+  }
+
+  h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #605A5A;
+  }
+
+  /* Estilo dos botões laterais */
+  .side-buttons {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #btn-style {
+    background-color: #007f00;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #btn-style:hover {
+    background-color: #00bf00;
+  }
+
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #476957;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+    display: block;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .social-container img {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+  }

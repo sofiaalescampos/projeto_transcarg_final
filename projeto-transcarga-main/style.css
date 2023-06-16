@@ -1,0 +1,131 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #476957;
+    height: 80px;
+  }
+  
+  .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .logo-container img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .nav-container ul {
+    list-style: none;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+  }
+  
+  .nav-container li {
+    margin-right: 20px;
+  }
+  
+  .nav-container a {
+    color: #FB4A13;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Estilo para o botão ativo */
+  .nav-container a.active,
+  .nav-container a:hover {
+    color: #FFFFFF;
+  }
+  
+  /* Estilos para o conteúdo principal */
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-section {
+    flex: 1;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .images-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .images-container img {
+    height: 381px;
+    width: 49%;
+    object-fit: cover;
+  }
+  
+  .text-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    flex-basis: 50%;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: #6F6666;
+  }
+  
+  .text-container p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    width: 50%;
+    float: left;
+    /*flex-basis: 50%;*/
+    font-family: 'Inter', sans-serif;
+    color: #605A5A;
+  }
+  
+  .text-container button {
+    color: #605A5A;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #476957;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .social-container img {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+  }
